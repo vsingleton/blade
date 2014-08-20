@@ -58,7 +58,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<instructions>
-						<Private-Package>sample.bundle.maven</Private-Package>
+						<Private-Package>*</Private-Package>
 						<_dsannotations>*</_dsannotations>
 					</instructions>
 				</configuration>
