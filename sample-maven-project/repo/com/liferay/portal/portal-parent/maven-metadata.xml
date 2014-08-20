@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.liferay.portal</groupId>
+  <artifactId>portal-parent</artifactId>
+  <versioning>
+    <versions>
+      <version>7.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140820050917</lastUpdated>
+  </versioning>
+</metadata>
