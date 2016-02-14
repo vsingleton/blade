@@ -39,7 +39,7 @@ import javax.servlet.ServletContext;
 	},
 	service = Portlet.class
 )
-public class JSFPortletDS extends GenericFacesPortlet implements ServletContextAware {
+public class JSFPortlet extends GenericFacesPortlet implements ServletContextAware {
 
 	private ServletContext _servletContext;
 
@@ -60,14 +60,15 @@ public class JSFPortletDS extends GenericFacesPortlet implements ServletContextA
 
 	@Override
 	public void init(PortletConfig portletConfig) throws PortletException {
-
+		
 		super.init(portletConfig);
-		System.err.println("Init");
+		System.err.println("Init");		
 	}
 
 	@Override
 	public ServletContext getServletContext() {
 		return _servletContext;
 	}
-
+	
 }
+
