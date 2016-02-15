@@ -53,7 +53,7 @@ public class JSFPortlet extends GenericFacesPortlet implements ServletContextAwa
 		super.destroy();
 	}
 
-	@Reference(target="(osgi.web.symbolicname=blade.jsf.portlet.ds)")
+	@Reference(target="(osgi.web.symbolicname=blade.portlet.jsf)")
 	protected void setServletContext (ServletContext servletContext) {
 		_servletContext = servletContext;
 	}
